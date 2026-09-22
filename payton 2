@@ -1,0 +1,34 @@
+
+nilai = float(input("Masukkan nilai: "))
+
+if nilai >= 90:
+    print("Luar Biasa")
+elif nilai >= 80:
+    print("Sangat Baik")
+elif nilai >= 70:
+    print("Baik")
+elif nilai >= 60:
+    print("Cukup")
+else:
+    print("Kurang")
+
+a = float(input("Masukkan nilai pertama : "))
+b = float(input("Masukkan nilai kedua : "))
+c = float(input("Masukkan nilai ketiga : "))
+
+if a >= b and a >= c:
+    print("Nilai terbesar: ", a)
+elif b >= a and b >= c:
+    print("Nilai terbesar: ", b)
+else:
+    print("Nilai terbesar: ", c)
+
+nilai_fib = int(input("Masukkan batas nilai: "))
+
+a_fib = 0
+b_fib = 1
+
+print("Deret Fibonacci: ")
+while a_fib <= nilai_fib:
+    print(a_fib, end=" ")
+    a_fib, b_fib = b_fib, a_fib + b_fib
