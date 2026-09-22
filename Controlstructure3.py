@@ -8,4 +8,4 @@ elif (b >= a) and (b >= c):
     terbesar = b
 else:
     terbesar = c
-print(f"bilangan terbear adalah:{terbesar}")
+print(f"bilangan terbear adalah:{terbesar}") 
